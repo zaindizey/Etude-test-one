@@ -5,11 +5,42 @@
     padding:5px;
     background-image:url(/assets/images/simba2\ copy.jpg);
     margin: 10px;
+    
 }
 .section-six{
     grid-column: 3;
     grid-row: 4;
 }
+/*start of section-three*/
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row: 2;
+    padding: 5rem;
+    background-image:url(/assets/images/lukman.jpg);
+    color: #fff;
+    
+}
+/*end of section-three*/
+/*start of section-three*/
+.picture{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+img{
+    width: 50%;
+    height: 50%;
+
+}
+img{
+    border-radius: 50%;
+    background-color: red;
+}
+/*end of section-three*/
+
+
+
+/*start of section-three*/
 
 
 
