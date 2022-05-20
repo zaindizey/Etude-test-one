@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-row: 4; 
+    padding:5px;
+    background-image:url(/assets/images/simba2\ copy.jpg);
+    margin: 10px;
+}
+.section-six{
+    grid-column: 3;
+    grid-row: 4;
+}
+
+
+
